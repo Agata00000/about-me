@@ -7,6 +7,7 @@
     <meta name="description" content="Study abroad guide, covering topics such as what country and university to choose">
     <title>My guide to studying abroad</title>
     <link href="C:/Users/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/styles2/style.css" rel="stylesheet">
+    <link href="C:/Users/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/styles2/style_grid.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
   </head>
@@ -14,57 +15,82 @@
     <nav>
       <div class="menu">
       <ul id="l01"> 
-        <li><a href="#home">Home</a></li>
+        <li><a class="active" href="#home">Home</a></li>
         <li><a href="#aboutme">About me</a></li>
-        <li><a href="#countries">Countries</a></li>
+        <li class="dropdown"><a href="#javascript:void(0)" class="dropbtn">Studying abroad</a>
+          <div class="dropdown-content">
+            <a href="#">Countries</a>
+            <a href="#">IELTS</a>
+            <a href="#">SAT</a>
+          </div>
+        </li>
+        <li><a href="#book">My Book</a><li>
+        <li><a href="#tradenotes">Tradenotes</a><li>
+        <li><a href="#triathlon">Triathlon</a><li>
         <li><a href="#contact">Contact</a></li>
       </ul> 
-    </div>
+      </div>
     </nav>
     <!--<div id = "primary">-->
-      <div class="top">
-        <h1>My guide to studying abroad</h1>
-        <h2>Learn wherever you want!</h2>
-      </div>
-      <!--<img src="images/airplaneView.jpg" alt="View from an aiplane window">-->
-      <h4>The letter from me to me about me</h4> 
-      <div class = "maintext">
-        <p>
-          This website is mostly for me. To be honest nobody else will probably see it. So I will just gather here information about studying abroad. It's a good way to combine programming with research. Althoug if somehow someone ends up here, he or she will be able to find specific and thorough descriptions of countries and universities, also my career ideas (there won't be much of those tho).
-        </p>
-      </div>
-      <div class = "maintext">
-        <ol>
-          <li>How to decide what you want to study</li>
-          <li>How to choose a country<br></li>
-          <ul>
-            <li>Language</li>
-            <li>Living costs</li>
-            <li>Tuition Fees</li>
-            <li>Uni reputation</li>
-            <li>Scholarships</li>
-            <li>Extra work</li>
-            <li>School requirements</li>
-            <li>Documents</li>
-            <li>Sources</li> 
-          </ul>
-          <li>How to choose universities and programs</li>
-        </ol>
-      </div>
-      <div class="links">
-      <p>
-        Some links you may find useful<br>
-        <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2022" target="_blank">QS World Ranking<br></a>
-        <a href="https://www.topuniversities.com/university-rankings/university-subject-rankings/2021/engineering-technology" target="_blank">QS Engineering World Ranking<br></a>
-        <a href="https://www.topuniversities.com/university-rankings/university-subject-rankings/2021/medicine" target="_blank">QS Medicine World Ranking<br></a>
-        <a href="https://www.topuniversities.com/university-rankings/university-subject-rankings/2021/engineering-mechanical" target="_blank">QS Aero Engineering World Ranking<br></a> 
-      </p>
-      <button>Change user</button>
+    <div class="top">
+      <h1>agatho.kakological</h1>
+      <h2>NEW!!!</h2>
     </div>
-      <script src="scripts/main.js"></script>
-      <footer>
-        <p>Footer</p>
-      </footer>
+    <!--<img src="images/airplaneView.jpg" alt="View from an aiplane window">-->
+    
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>BURNOUT REALITY</h2>
+          <h5>How to get back on track, Aug 7, 2021</h5>
+          <div class="fakeimg" style="height:200px">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+          <p>Feeling drained after writing 50 pages of my own book. How did I manage to overcome my anxiety and get back on track.</p>
+        </div>
+        <div class="card">
+          <h2>MY TRIATHLON JOURNEY</h2>
+          <h5>How did it all start, Aug 8, 2021</h5>
+          <div class="fakeimg" style="height:200px">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+          <p>From Pilates to Triathlon training. Where to look for motivation. FREE workout training plans included accompanied by my habit tracker helpin me stay fit.</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About Me</h2>
+          <div class="fakeimg" style="height: 100px;">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+          <p>Hi!!! I'm so grateful to have you visited my website. I'll be sharing my experience on multiple topics, and so should you! I created a safe space in comments so feel free to speek up. I'll also make sure to share body positivite and mental-health awareness. If you want to get to know me a little bit more, click on the link below or choose nsdcjnk on the navbar. See you soon! <333</p>
+        </div>
+        <div class="card">
+          <div>h3>Popular Post</h3>
+          <div class="fakeimg">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+          <div class="fakeimg">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+          <div class="fakeimg">
+            <img src="C:/Userss/hp/Desktop/Agata Smolińska/web-projects/My_guide_to_studying_abroad/images/gora.jpg" alt="mountain">
+          </div>
+        </div>        
+        <div class="card">
+          <h3>Follow Me</h3>
+          <ul>
+            <li>Private Instagram: agatho.kakological</li>
+            <li>Business Instagram: ...</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+     
+    <script src="scripts/main.js"></script>
+    <footer>
+      <p>Footer</p>
+    </footer>
     <!--</div>-->
   </body>
 </html> 
